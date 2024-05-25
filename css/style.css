@@ -706,10 +706,18 @@ a {
   width: 12rem;
   height: 6rem;
 }
+.designation{
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: -0.3rem;
+}
 
+.about_title{
+  font-weight: bolder !important;
+}
 @media (max-width: 576px) {
   .client_image{
-    width: 9rem;
+    width: 7rem;
   }
   .outer_container{
     grid-template-columns:auto auto auto;
@@ -719,9 +727,15 @@ a {
     font-size: 3rem;
     text-align: center;
   }
-  body{
-    overflow-y: hidden;
+  .designation{
+    font-size: 1.2rem;
   }
+
+  .about_title{
+    margin-bottom: -1rem;
+  }
+
+  
   
 }
 
